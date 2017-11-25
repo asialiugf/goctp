@@ -42,7 +42,7 @@ make example
 
 1. [[golang]如何在windows上使用cgo]([golang]如何在windows上使用cgo)
 
-
+## 在ubuntu上安装如下：
 ```
 $ cd 
 $ cd ~/
