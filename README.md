@@ -43,7 +43,7 @@ make example
 1. [[golang]如何在windows上使用cgo]([golang]如何在windows上使用cgo)
 
 
-
+```
 $ cd 
 $ cd ~/
 $ mkdir gotest
@@ -61,3 +61,4 @@ $ go install
 
 $ go build -v -x _example/goctp_md_example.go
 $ go build -v -x _example/goctp_trader_example.go
+```
