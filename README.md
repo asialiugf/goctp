@@ -41,3 +41,23 @@ make example
 ## FAQ
 
 1. [[golang]如何在windows上使用cgo]([golang]如何在windows上使用cgo)
+
+
+
+$ cd 
+$ cd ~/
+$ mkdir gotest
+$ cd gotest
+$ mkdir src
+$ mkdir bin
+$ mkdir pkg
+$ cd src
+$ git clone https://github.com/asialiugf/goctp.git
+$ cd goctp
+$ cat *.bat
+$ export GOPATH=~/gotest
+$ go build -v -x -work #构建GO动态库
+$ go install
+
+$ go build -v -x _example/goctp_md_example.go
+$ go build -v -x _example/goctp_trader_example.go
